@@ -55,36 +55,34 @@ The file `gender.py` is copied from [github.com/block8432/gender.py](https://git
 
 # Citation
 
-Please cite as
+Please cite:
 
 ```
-Pico, T., Bierman, P., Doyle, K., Richardson, S., First authorship gender gap in the geoscience, AGU Advances, in review.
+Pico, T., Bierman, P., Doyle, K., & Richardson, S. (2020). First authorship gender gap in the geosciences. Earth and Space Science, 7, e2020EA001203. https://doi.org/10.1029/2020EA001203 
+
+Ermert, L. A., Koroni, M., and Korta Martiartu, N.: Quantifying gender gaps in seismology authorship, Solid Earth, 14, 485–498, https://doi.org/10.5194/se-14-485-2023, 2023
 ```
 
 ## overview of all the notebooks and scripts:
+
+For collecting journal pages and parsing publication data use:
+
 ```
-Analysis_name_authors.ipynb
+Scrape_Journals.ipynb
+Parse_journal_data.ipynb
+
 ```
 
+For downloading EGU abstract data:
 
-Author_Database_from_ConferenceAbstracts.ipynb
-Example_gender_chinese_names.ipynb
-Parse Journal Data-EGU.ipynb
-Parse Journal Data.ipynb
-Scrape Journals Save Pages.ipynb
-analysis-Synthetics.ipynb
-analysis.ipynb
-analysis_EGU.ipynb
-compare_demographics.ipynb
-Analysis_name_authors.ipynb
-Author_Database_from_ConferenceAbstracts.ipynb
-Example_gender_chinese_names.ipynb
-Parse Journal Data-EGU.ipynb
-Parse Journal Data.ipynb
-Scrape Journals Save Pages.ipynb
-analysis-Synthetics.ipynb
-analysis.ipynb
-analysis_EGU.ipynb
-compare_demographics.ipynb
-gender.py
-read_jsondata.py
+```
+ScrapeAndParse_EGUAbstractData.ipynb
+```
+
+For probabilistic analysis:
+
+```
+analysis-clean.ipynb 
+conditional_probabilities_teamcomposition.ipynb
+```
+
