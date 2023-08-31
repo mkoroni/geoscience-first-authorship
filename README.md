@@ -1,10 +1,6 @@
 # Setup
 
-This code was developed and run on Ubuntu 18.04 using Chrome 73. Basic
-instructions for setup are included below. The code is not designed for
-resilience in the face of changing browsers, websites, or operating
-systems so it is likely that some additional work will be needed when
-trying to get things going. Feel free to reach out to me for any help.
+The codes for scraping and parsing were adapted from the original codes used in Pico et al. (2020). Installation instructions are copied from their repository.
 
 ## Basic setup instructions
 
@@ -39,15 +35,6 @@ The webdriver we used with selenium is included in this repo under the
 `deps` directory. It is compatible with Google Chrome versions 70-73.
 Other versions of chromedrivers can be [downloaded here](https://chromedriver.chromium.org/downloads).
 
-# Use
-
-There are two notebooks here. One is used to retrieve and save raw
-webpages. The other parses those webpages into data structures and
-interacts with the genderize.io API. The notebooks are commented
-and with a little inference I hope they are able to explain themselves.
-Both notebooks should be able to execute top to bottom, no jumping
-around is needed. However, be aware that they reach out to external
-sites and can be resource intensive.
 
 # Acknowledgments
 
