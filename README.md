@@ -14,7 +14,7 @@ $ virutalenv venv
 $ source venv/bin/activate
 ```
 
-Next, pip install the requirements.txt
+Next, pip install the requirements.txt (note: this file is not updated!)
 
 ```
 $ pip3 install -r requirements.txt
